@@ -1,10 +1,10 @@
-import { Directive } from '@angular/core';
+import { Directive, Input } from "@angular/core";
 
 @Directive({
-  selector: '[appSelected]'
+  selector: "[appSelected]"
 })
 export class SelectedDirective {
+  @Input() private appSelected: boolean;
 
-  constructor() { }
-
+  constructor() {}
 }
