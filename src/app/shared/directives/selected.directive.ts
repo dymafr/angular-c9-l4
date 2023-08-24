@@ -15,9 +15,9 @@ export class SelectedDirective implements OnChanges {
       this.color = 'white';
       this.fontWeight = '500';
     } else {
-      this.backgroundColor = 'white';
-      this.fontWeight = '400';
-      this.color = 'var(--text-regular)';
+      this.backgroundColor = '';
+      this.fontWeight = '';
+      this.color = '';
     }
   }
 
